@@ -24,6 +24,5 @@ public class Fletch extends Task<ClientContext> {
   public void execute() {
     Condition.sleep();
     feather.interact(true, shaft);
-    }
   }
 }
